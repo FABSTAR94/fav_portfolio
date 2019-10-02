@@ -324,3 +324,16 @@ ms for microsoft,ms internet explorer, transition is for anything else*/
 .items {
   padding: 0;
 }
+
+/*copyright section*/
+
+.copyrightSection {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
+}
+
