@@ -7,29 +7,33 @@
     <link rel="stylesheet" type="text/css" href="css/superslides.css">
     <link rel="stylesheet" type="text/css" href="css/owlcarousel.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/iconstyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <!-- Loader -->
     <div class="loader">
-        <div class="inner"></div>
+        <div class="inner">
+        </div>
     </div>
+    <!-- Banner Slides -->
     <div id="slides">
         <div class="overlay"></div>
         <div class="slides-container">
-            <img src="img/slide1.jpg" alt="">
-            <img src="img/slide2.jpg" alt="">
-            <img src="img/slide3.jpg" alt="">
+            <img src="img/girl.jpeg" alt="">
+            <img src="img/codeblur.jpeg" alt="">
+            <img src="img/slideUno.jpeg" alt="">
         </div>
         <div class="titleMessage">
             <div class="heading">
-                <p class="main"> Faviola Caballero </p>
+                <p class="main">Faviola Caballero </p>
                 <p class="sub typed"></p>
             </div>
         </div>
@@ -39,8 +43,9 @@
         </nav>
     </div>
     </div>
+    <!-- Navbar -->
     <nav id="navigation" class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">FAB✰</a>
+        <a class="navbar-brand" href="#">Faviola</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,7 +58,7 @@
                     <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#stats">Stats</a>
+                    <a class="nav-link" href="#stats">Technologies</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -64,129 +69,196 @@
             </ul>
         </div>
     </nav>
+    <!-- About Me Section -->
     <div id="about" class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <img class="aboutImage" src="img/about.jpeg">
+                    <img class="aboutImage" src="img/potrait2.jpeg">
                 </div>
-                <div class="col-md-7">
-                    <h4>My name is Faviola Caballero</h4>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <div class="col-md-7 about-text">
+                    <h3>Get to know me</h3>
+                    <p>I earned an AS in Business Administration and AA in Economics. After that, I took some time off and convinced myself to pursue an interest of mine. I was always interested in computer programming so I decided to join an intense nine-week coding bootcamp course at LeWagon in Buenos Aires, Argentina. I was taught the elements of becoming a Full Stack Web Developer by building web applications using HTML, CSS, Ruby, Ruby on Rails, and Javascript. Once the bootcamp was over, I realized I enjoyed the Front End so I have been working on improving those skills. My goal is to have a better understanding of the Front End and improve my Back End skills as well. So far, I have been taking additional courses such as React in order to expand my knowledge.</p>
+                    <p>I'm a Front-End Developer seeking a Front End Engineer position located anywhere in the Bay Area or remotely. I am currently working on projects for myself and clients. If you would like to know more about my experience continue scrolling. Thank you for your time.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div id="skills" class="skillsSection section">
+    <!-- Skills Section -->
+    <div id="skills" class="skillsSection">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center pd">
                     <h2>Technical Skills</h2>
-                    <p>A representation of my proficiency in each skill</p>
-                </div>
-                <div class="owl-carousel owl-theme">
-                    <div class="skill">
-                        <span class="chart" data-percent="90">
-                            <span class="percent">90</span>
-                            <canvas height="152" width="152"></canvas>
-                        </span>
-                        <h4>HTML</h4>
-                        <p>Used in all of my projects.</p>
-                    </div>
-                    <div class="skill">
-                        <span class="chart" data-percent="80">
-                            <span class="percent">80</span>
-                            <canvas height="152" width="152"></canvas>
-                        </span>
-                        <h4>CSS</h4>
-                        <p>Used in all of my projects.</p>
-                    </div>
-                    <div class="skill">
-                        <span class="chart" data-percent="45">
-                            <span class="percent">45</span>
-                            <canvas height="152" width="152"></canvas>
-                        </span>
-                        <h4>JAVASCRIPT</h4>
-                        <p>Used in some of my Projects.</p>
-                    </div>
-                    <div class="skill">
-                        <span class="chart" data-percent="75">
-                            <span class="percent">75</span>
-                            <canvas height="152" width="152"></canvas>
-                        </span>
-                        <h4>RUBY</h4>
-                        <p>Used in most of my projects.</p>
-                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tools</th>
+                                <th>Technologies</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Languages</td>
+                                <td>HTML, CSS, JavaScript& Ruby</td>
+                            </tr>
+                            <tr>
+                                <td>Frameworks</td>
+                                <td>Bootstrap & Ruby On Rails</td>
+                            </tr>
+                            <tr>
+                                <td>Libraries</td>
+                                <td>React.js</td>
+                            </tr>
+                            <tr>
+                                <td>Version Control System</td>
+                                <td>Git</td>
+                            </tr>
+                            <tr>
+                                <td>Code Revision Platforms</td>
+                                <td>Github</td>
+                            </tr>
+                            <tr>
+                                <td>Hosting Services</td>
+                                <td>Heroku & Netlify</td>
+                            </tr>
+                            <tr>
+                                <td>Design Tool</td>
+                                <td>Figma</td>
+                            </tr>
+                            <tr>
+                                <td>Code Editor</td>
+                                <td>Sublime Text 3.2 & Visual Studio</td>
+                            </tr>
+                            <tr>
+                                <td>Command Line</td>
+                                <td>Shell</td>
+                            </tr>
+                            <tr>
+                                <td>Other</td>
+                                <td>Photoshop</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
+    <!-- logos -->
     <div id="stats" class="statsSection section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fas fa-history"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2 class="counter">1</h2>
-                                <h3>Years of Experience</h3>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-2">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/figma-512.png" alt="">
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2 class="counter">2</h2>
-                                <h3>Clients</h3>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-2">
+                    <img src="https://pngimage.net/wp-content/uploads/2019/05/javascript-icon-png-3.png" width="38" alt="js log0">
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2 class="counter">3</h2>
-                                <h3>Apps</h3>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_Awesome_5_brands_css3-alt.svg/1200px-Font_Awesome_5_brands_css3-alt.svg.png" alt="">
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fas fa-laptop"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2 class="counter">3</h2>
-                                <h3>Websites</h3>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-2">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/ruby-logo-black-and-white.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://pngimg.com/uploads/photoshop/photoshop_PNG46.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-2">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://www.stickpng.com/assets/images/58483107cef1014c0b5e4aa3.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/bootstrap-5-458237.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/heroku-3-555378.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/netlify-512.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/1024px-HTML5_logo_black.svg.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/react-native-555397.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://vectorified.com/images/sublime-icon-34.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHQL-uiFXVgPqdkBecc6aKD9aQ7nLPNPeXPHCuIhL6zb60PPsc&usqp=CAU" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <!-- Contact Section -->
     <div id="contact" class="contactSection section">
         <div class="col-md-12 text-center">
-            <p class="subHeading">Like what you see?</p>
+            <p class="subHeading">Interested?</p>
             <h2>I'd love to hear from you!</h2>
-            <a href="mailTo:faviola.caballerog@gmail.com" class="contactButton">GET IN TOUCH!</a>
+            <button type="button" class="contactButton" data-toggle="modal" data-target="#staticBackdrop">Contact Me
+            </button>
+            <!--             <a href="mailTo:faviola.caballerog@gmail.com" class="contactButton">Contact Me</a> -->
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Put your information down below</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputName">Name</label>
+                                <input type="text" name="name" class="form-control" id="inputName" required data-error-msg="Must enter your name?">
+                            </div>
+                            <div class="form-group is-valid string email optional col-md-6">
+                                <label for="inputEmail">Email</label>
+                                <input class="form-control" type="email" autocomplete="email" autofocus="autofocus" id="inputEmail" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" name="user[email]" required data-error-msg="The email is required in valid format!">
+                            </div>
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="inputMessage">Message</label>
+                            <textarea id="inputMessage" class="form-control" name="inputMessage" rows="6"></textarea>
+                        </div>
+                        <div class="button-align">
+                            <div class="form-group col-12">
+                                <button type="submit" id="okButton" class="btn btn-primary" onclick="sendForm(event)">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show m-1" id="success-pop-up" role="alert">
+        Your information has been sent.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show m-1" id="error-pop-up" role="alert">
+        ERROR! Your information was not sent. Please try again.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+    <!-- Portfolio -->
     <div id="portfolio" class="section">
         <div class="container">
             <div class="row">
@@ -196,119 +268,91 @@
                 <div class="filter">
                     <ul id="filters">
                         <li><a href="#" data-filter="*" class="current">All</a></li>
-                        <li><a href="#" data-filter=".apps">Apps</a></li>
-                        <li><a href="#" data-filter=".me">Me</a></li>
-                        <li><a href="#" data-filter=".websites">Websites</a></li>
+                        <li><a href="#" data-filter=".rct">React</a></li>
+                        <li><a href="#" data-filter=".js">Javascript</a></li>
+                        <li><a href="#" data-filter=".rr">Ruby/Rails</a></li>
                     </ul>
                 </div>
                 <div class="itemsContainer">
                     <ul class="items">
-                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <li onclick="" class="rct col-xs-6 col-sm-6">
                             <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
+                                <img src="img/fabstar.jpeg" class="img-color">
                                 <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
+                                    <a href="img/fabstar.jpeg" title="View image" class="openButton" data-fancybox data-caption="I built this photography portfolio to display my images. It was built using React.js. The website is responsive for mobile view using media queries. The images are displayed using the npm module 'simple-react-lightbox'. Some of the CSS components were created using the npm module 'styled-components' in order to give them prop functionality. The contact form is sending emails using the open REST API on this site 'https://postmail.invotes.com/'.">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="http://shadowme.social/" target="_blank" class="projectLink">
+                                    <a href="https://www.fabstargraphy.com/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <div class="imageOverlay"></div>
                             </div>
                         </li>
-                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <li onclick="" class="js col-xs-6 col-sm-6">
                             <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
+                                <img src="img/ge.jpeg" class="img-color">
                                 <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
+                                    <a href="img/ge.jpeg" title="View image" class="openButton" data-fancybox data-caption="I built this website for a client who buys homes in cash. I made website mobile responsive using media queries. The contact form is sending emails using the open REST API on this site 'https://postmail.invotes.com/'.">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://www.webuybayareahomes.net/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <div class="imageOverlay"></div>
                             </div>
                         </li>
-                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
+                        <li onclick="" class="rr col-xs-6 col-sm-6">
+                            <div class="item ">
+                                <img src="img/shadowme.jpeg" class="img-color">
                                 <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
+                                    <a href="img/shadowme.jpeg" title="View image" class="openButton" data-fancybox data-caption="ShadowMe, a website where students can explore career options and have the opportunity to shadow a professional in person all over the world. This was built in the last 2 weeks of Le Wagon coding bootcamp with a team of 3. We used HTML5, CSS, Ruby on Rails, JavaScript.">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="http://shadowme.social/" target="_blank" class="projectLink">
+                                    <a href="http://www.shadowme.social/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <div class="imageOverlay"></div>
                             </div>
                         </li>
-                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <li onclick="" class="rr col-xs-6 col-sm-6">
                             <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
+                                <img src="img/port.jpeg" class="img-color">
                                 <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
+                                    <a href="img/port.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is a portfolio I built for practice using HTML, CSS, JavaScript, and Ruby on Rails.">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://faviolaportfolio.herokuapp.com/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <div class="imageOverlay"></div>
                             </div>
                         </li>
-                        <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <li onclick="" class="js col-xs-6 col-sm-6">
                             <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
+                                <img src="img/travelstory.jpeg" class="img-color">
                                 <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
+                                    <a href="img/travelstory.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is a website I built in which you can join if you are interested in making travel a career. I used HTML, CSS, JavaScript, & Ruby on Rails.">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://mytravelstory.herokuapp.com/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <div class="imageOverlay"></div>
                             </div>
                         </li>
-                        <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <li onclick="" class="js col-xs-6 col-sm-6">
                             <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
+                                <img src="img/portfolio.jpeg" class="img-color">
                                 <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
+                                    <a href="img/portfolio.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is my portfolio in which I used HTML, CSS, & JavaScript. I purchased a course on Udemy in which gave me inspiration. I used ther owl carrousel and made my own alterations throughout the whole project. The contact form is sending emails using the open REST API on this site 'https://postmail.invotes.com/'.">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
-                                <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="img/portfolio/thumbnails/crop.jpg">
-                                <div class="icons">
-                                    <a href="img/portfolio/original.jpg" title="View image" class="openButton" data-fancybox data-caption="These are butterflies">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="http://shadowme.social/" target="_blank" class="projectLink">
+                                    <a href="https://mytravelstory.herokuapp.com/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -320,46 +364,21 @@
             </div>
         </div>
     </div>
-
-
-
-    <div class="copyrightSection">
-        <div class="col-md-12 text-center">
-
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200">
-            <g class="youtube-icon-group">
-              <circle class="youtube-outline" fill="transparent" stroke="#F26768" stroke-miterlimit="10" cx="250" cy="100.5" r="35.2" />
-              <circle class="youtube-inner-circle" fill="transparent" stroke="#F26768" stroke-miterlimit="10" cx="250" cy="100.5" r="35.2" />
-              <path class="youtube-icon" fill="#F26768" d="M264.7 94.6s-.3-2-1.2-3c-1-1.2-2.4-1.2-3-1.3-4.2-.3-10.5-.3-10.5-.3s-6.3 0-10.5.3c-.6 0-2 0-3 1.3-1 1-1.2 3-1.2 3s-.3 2.4-.3 4.8v2.2c0 2.4.3 4.8.3 4.8s.3 2 1.2 3c1 1.2 2.6 1.2 3.3 1.3 2.4.2 10.2.3 10.2.3s6.3 0 10.5-.3c.6 0 2 0 3-1.3 1-1 1.2-3 1.2-3s.3-2.4.3-4.8v-2.2c0-2.4-.3-4.8-.3-4.8zm-17.8 9.8V96l8 4.2-8 4.2z" />
-              </g>
-              <g class="twitter-icon-group">
-                <a href="https://www.instagram.com/fabstar_94/" target="blank">Instagram
-                  <circle class="twitter-outline" fill="none" stroke="#4099ff" stroke-miterlimit="10" cx="110.6" cy="100.5" r="35.2" />
-                  <path fill="#4099ff" d="M125.4 91.8c-1 .5-2.3 1-3.5 1 1-.8 2-2 2-3.4-1 .7-2.6 1.2-4 1.5-1-2-2.6-2-4.4-2-3.3 0-6 2-6 6v1c-5-.6-9.4-3-12.4-6.7-.6 1-1 2-1 3 0 2 1.2 4 2.8 5-1 0-2-.2-2.6-.7 0 3 2 5.4 5 6l-1.8.2h-1c.6 2.2 3 4 5.5 4-2 1.6-4.6 2.6-7.5 2.6h-1c2.4 1.5 5.5 2.5 9 2.5 11 0 17.2-9.3 17.2-17.3 1.2-1 2.2-2 3-3.2z" />
-                  <path class="twitter-icon" fill="transparent" stroke="transparent" d="M125.4 91.8c-1 .5-2.3 1-3.5 1 1-.8 2-2 2-3.4-1 .7-2.6 1.2-4 1.5-1-2-2.6-2-4.4-2-3.3 0-6 2-6 6v1c-5-.6-9.4-3-12.4-6.7-.6 1-1 2-1 3 0 2 1.2 4 2.8 5-1 0-2-.2-2.6-.7 0 3 2 5.4 5 6l-1.8.2h-1c.6 2.2 3 4 5.5 4-2 1.6-4.6 2.6-7.5 2.6h-1c2.4 1.5 5.5 2.5 9 2.5 11 0 17.2-9.3 17.2-17.3 1.2-1 2.2-2 3-3.2z" />
-                </a>
-              </g>
-              <g class="facebook-icon-group">
-                <a href="https://www.facebook.com/fabiola.caballerogonzalez" target="blank">Facebook
-                  <circle class="facebook-outline" fill="none" stroke="#3b5998" stroke-miterlimit="10" cx="389.4" cy="100.5" r="35.2" />
-                  <path fill="#3b5998" d="M392 95.5v-3c0-1.3.2-2 2.2-2h2.7v-5h-4c-5 0-7 3.3-7 7v3h-4v5h4v15h6v-15h4l.2-5h-5z" />
-                  <path class="facebook-detail" fill="#3b5998" d="M389.473 51.471c-.639 0-1.155.517-1.155 1.155v8.854c0 .639.517 1.156 1.155 1.156.639 0 1.155-.518 1.155-1.156v-8.854c0-.638-.517-1.155-1.155-1.155zM369.5 55.503c-.584.26-.846.942-.586 1.526l3.602 8.089c.26.583.941.845 1.525.585.583-.26.845-.942.586-1.525l-3.602-8.089c-.259-.583-.942-.845-1.525-.586zm-16.606 11.808c-.428.475-.39 1.205.085 1.633l6.58 5.924c.475.428 1.205.391 1.633-.085.427-.474.388-1.204-.086-1.632l-6.58-5.926c-.475-.426-1.206-.389-1.632.086zm-10.369 17.541c-.197.607.135 1.26.742 1.457l8.421 2.736c.606.197 1.259-.135 1.456-.742.197-.607-.135-1.258-.742-1.457l-8.421-2.736c-.607-.197-1.258.134-1.456.742zm-2.337 20.242c.066.635.636 1.096 1.271 1.028l8.806-.925c.634-.066 1.095-.635 1.028-1.271-.066-.633-.635-1.094-1.271-1.027l-8.806.926c-.634.066-1.094.634-1.028 1.269zm6.098 19.442c.319.552 1.027.743 1.579.423l7.668-4.428c.553-.318.742-1.023.423-1.579-.318-.552-1.024-.741-1.579-.421l-7.668 4.426c-.552.32-.741 1.025-.423 1.579zm13.48 15.28c.516.375 1.24.262 1.614-.256l5.204-7.163c.375-.515.262-1.237-.257-1.614-.515-.375-1.237-.261-1.613.258l-5.205 7.162c-.374.517-.26 1.238.257 1.613zm18.528 8.479c.624.132 1.239-.267 1.371-.891l1.841-8.662c.133-.621-.265-1.236-.892-1.369-.623-.133-1.236.266-1.369.891l-1.842 8.66c-.132.625.267 1.238.891 1.371zm20.375.209c.624-.135 1.024-.748.891-1.372l-1.842-8.661c-.131-.622-.744-1.021-1.371-.889-.623.133-1.021.746-.889 1.371l1.84 8.66c.134.625.747 1.023 1.371.891zm18.698-8.098c.516-.377.632-1.1.256-1.615l-5.205-7.162c-.373-.516-1.096-.631-1.614-.256-.515.375-.63 1.098-.254 1.615l5.203 7.162c.376.518 1.099.631 1.614.256zm13.789-15.002c.317-.555.129-1.262-.424-1.58l-7.668-4.426c-.551-.318-1.258-.131-1.579.424-.317.551-.129 1.258.425 1.578l7.667 4.427c.554.319 1.26.13 1.579-.423zm6.494-19.314c.064-.635-.395-1.204-1.029-1.27l-8.806-.926c-.632-.066-1.202.393-1.27 1.03-.066.632.394 1.202 1.03 1.269l8.804.926c.637.067 1.205-.393 1.271-1.029zm-1.922-20.285c-.199-.605-.85-.939-1.456-.741l-8.422 2.735c-.604.197-.938.848-.74 1.459.196.604.849.938 1.457.738l8.42-2.734c.607-.198.939-.85.741-1.457zm-10.008-17.75c-.429-.473-1.157-.513-1.631-.084l-6.581 5.924c-.472.426-.513 1.156-.084 1.634.426.472 1.157.513 1.632.083l6.58-5.924c.474-.428.512-1.159.084-1.633zm-16.362-12.144c-.584-.258-1.267.002-1.524.585l-3.603 8.09c-.258.58.002 1.266.588 1.525.581.26 1.266-.002 1.524-.588l3.602-8.086c.26-.583-.002-1.267-.587-1.526z" />
-                  </a>
-              </g>
-          </svg>
-
-
-
-            <p>&copy; Copyright FABSTAR94 2019</p>
+    <!-- Footer -->
+    <footer>
+        <ul class="list-inline">
+            <li><a href="https://resume.creddle.io/resume/gton1aq685h" target="blank"><i class="far fa-file fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/fabstar94-faviola-18fcg79341/" target="blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/FABSTAR94" target="blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="copyright">
+            <p>&copy;Copyright Faviola Caballero 2020</p>
         </div>
-    </div>
+    </footer>
     <script src="js/jquery.superslides.js" type="text/javascript"></script>
-    <script src="js/countUp.js"></script>
-    <script src="js/countUp-jquery.js"></script>
-    <script src="js/jquery.piechart.min.js" type="text/javascript"></script>
     <script src="js/typed.min.js" type="text/javascript"></script>
     <script src="js/owlcarousel.min.js" type="text/javascript"></script>
+    <script src="js/form.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
