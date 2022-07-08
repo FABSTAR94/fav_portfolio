@@ -90,7 +90,7 @@ img {
 
 .aboutImage {
     width: 80%;
-    /*  border: solid 5px #50394c !important;*/
+    /*  border: solid 5px #7C6482 !important;*/
     padding: 20px 20px;
     filter: grayscale(1);
 }
@@ -109,7 +109,7 @@ h3 {
 /*skill section*/
 .skillsSection,
 .contactSection {
-    background-color: #50394c;
+    background-color: #7C6482;
     color: #fff;
 }
 
@@ -166,7 +166,7 @@ td {
     display: inline-block;
     margin-top: 20px;
     border: 1px solid #fff;
-    background-color: #50394c;
+    background-color: #7C6482;
     border-radius: 2px;
     text-shadow: 2px 2px 5px black;
 }
@@ -185,7 +185,7 @@ td {
 
 /*form*/
 .modal-header {
-    background-color: #50394c;
+    background-color: #7C6482;
     color: white;
     border-radius: 3px 3px !important;
     text-shadow: 2px 2px 5px black;
@@ -205,8 +205,8 @@ td {
 
 .btn-primary {
     color: white;
-    background-color: #50394c !important;
-    border-color: #50394c !important;
+    background-color: #7C6482 !important;
+    border-color: #7C6482 !important;
     text-shadow: 2px 2px 5px black;
 }
 
@@ -311,8 +311,8 @@ button.close {
 }
 
 .filter .current {
-    background-color: #50394c;
-    border-color: #50394c;
+    background-color: #7C6482;
+    border-color: #7C6482;
     color: #fff;
     text-shadow: 2px 2px 5px black;
 }
@@ -390,7 +390,7 @@ button.close {
 .items a {
     width: 40px;
     height: 40px;
-    background-color: #50394c;
+    background-color: #7C6482;
     position: relative;
     display: inline-block;
     -webkit-transition: all 0.2s linear, 0.2s;
@@ -460,7 +460,7 @@ ms for microsoft,ms internet explorer, transition is for anything else*/
 
 /*Footer*/
 footer {
-    background-color: #50394c;
+    background-color: #7C6482;
     font-size: 20px;
     padding: 0px;
     height: 200px;
@@ -488,7 +488,7 @@ footer {
 
 /*navbar*/
 #navigation {
-    background-color: #50394c;
+    background-color: #7C6482;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
