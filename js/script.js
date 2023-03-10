@@ -21,8 +21,8 @@ $(document).ready(function() {
     $('#slides').superslides();
 
     let typed = new Typed(".typed", {
-        strings: [ "Software Engineer.", "Front End Engineer.", "Software QA Engineer"],
-        typeSpeed: 70,
+        strings: [ "Frontend Developer", "Software QA Engineer"],
+        typeSpeed: 80,
         loop: true,
         startDelay: 1000,
         showCursor: false
