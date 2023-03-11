@@ -368,7 +368,6 @@ footer {
 
 /*navbar*/
 #navigation {
-    background-color: #7C6482;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
@@ -379,15 +378,16 @@ footer {
 }
 
 #navigation li a {
-    color: #fff;
-    text-shadow: 2px 2px 5px black;
+    color: #000;
+    font-size: 20px;
 }
 
 .navbar-brand,
 .navbar-brand:hover {
-    color: #fff;
-    text-shadow: 2px 2px 5px black;
-    margin-left: 20px;
+    font-size: 40px;
+    color: #7C6482;
+    margin-left: 50px;
+    font-family: 'Fleur De Leah', cursive;
 }
 
 .navbar-toggler-icon {
@@ -398,6 +398,10 @@ footer {
 .fixedNav #navigation {
     position: fixed;
     top: 0;
+}
+
+.navbar-toggler {
+    background-color: #7C6482;
 }
 
 /* Loader gif */
