@@ -12,7 +12,7 @@ body {
     padding: 100px 0;
 }
 
-.about-heading h1 {
+.hero-heading h1 {
     text-align: center;
 }
 
@@ -23,24 +23,41 @@ img {
     width: 50%;
 }
 
-.aboutImage {
+.heroImage {
     width: 80%;
-     border: solid 5px #7C6482 !important;
+    border: solid 5px #7C6482 !important;
     padding: 20px 20px;
     /* filter: grayscale(1); */
 }
 
-.about-text h1{
+.hero-text h1{
     margin-top: 100px;
 }
 
-.about-text h4 {
+.hero-text h4 {
     color: #7C6482;
     font-style:italic;
 }
 
-.about-text p {
+.hero-text p {
     font-size: 18px;
+}
+
+#about h1 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #7C6482;
+}
+
+.about-img {
+    padding: 20px 20px;
+    border: solid 5px #7C6482 !important;
+}
+
+.about-text {
+    margin-top: 30px;
+    text-align: center;
 }
 
 /*contact section*/
