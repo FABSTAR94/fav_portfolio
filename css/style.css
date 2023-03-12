@@ -5,6 +5,67 @@ body {
     font-family: 'Handlee', cursive;
 
 }
+/* Loader gif */
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    color: #940a37;
+}
+
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    background: url(../img/loader.gif) center center no-repeat;
+}
+/*navbar*/
+#navigation {
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: #000;
+    font-size: 20px;
+}
+
+#navigation li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #7C6482;
+}
+
+
+
+.navbar-brand,
+.navbar-brand:hover {
+    font-size: 45px;
+    color: #7C6482;
+    margin-left: 50px;
+    font-family: 'Fleur De Leah', cursive;
+}
+
+.navbar-toggler-icon {
+    background: url(../icons/menu.png);
+    background-size: 100%;
+}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
+
+.navbar-toggler {
+    background-color: #7C6482;
+}
 
 /*about me*/
 
@@ -27,7 +88,7 @@ img {
     width: 80%;
     border: solid 5px #7C6482 !important;
     padding: 20px 20px;
-    /* filter: grayscale(1); */
+    filter: grayscale(.2);
 }
 
 .hero-text h1{
@@ -182,9 +243,6 @@ button.close {
 .close span {
     color: white;
 }
-
-
-
 
 /*Portfolio section*/
 
@@ -360,7 +418,6 @@ ms for microsoft,ms internet explorer, transition is for anything else*/
     padding: 0;
 }
 
-
 /*Footer*/
 footer {
     background-color: #7C6482;
@@ -388,184 +445,3 @@ footer {
     padding-top: 10px;
     font-size: 15px;
 }
-
-/*navbar*/
-#navigation {
-    padding: 20px 10px;
-    z-index: 100;
-    width: 100%;
-}
-
-#navigation li {
-    padding: 0 10px;
-}
-
-#navigation li a {
-    color: #000;
-    font-size: 20px;
-}
-
-#navigation li a:hover {
-    text-decoration: underline;
-    text-decoration-color: #7C6482;
-}
-
-
-
-.navbar-brand,
-.navbar-brand:hover {
-    font-size: 45px;
-    color: #7C6482;
-    margin-left: 50px;
-    font-family: 'Fleur De Leah', cursive;
-}
-
-.navbar-toggler-icon {
-    background: url(../icons/menu.png);
-    background-size: 100%;
-}
-
-.fixedNav #navigation {
-    position: fixed;
-    top: 0;
-}
-
-.navbar-toggler {
-    background-color: #7C6482;
-}
-
-/* Loader gif */
-.loader {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 1000;
-    color: #940a37;
-}
-
-.loader .inner {
-    width: 100%;
-    height: 100%;
-    background: url(../img/loader.gif) center center no-repeat;
-}
-
-
-
-/* skill section
-.skillsSection,
-.contactSection {
-    background-color: #7C6482;
-    color: #fff;
-}
-
-.skill {
-    text-align: center;
-    margin-left: 10px;
-}
-
-.skillsSection {
-    padding: 50px 0;
-    overflow: hidden;
-}
-
-table,
-td {
-    border: solid 2px black;
-    border-collapse: collapse;
-}
-
-table {
-    width: 75%;
-    margin: 0 auto;
-}
-
-thead {
-    background-color: black;
-    color: white;
-}
-
-thead tr {
-    color: white;
-}
-
-tr {
-    color: white;
-}
-
-td {
-    text-align: left;
-}
-
-.pd h2 {
-    padding-bottom: 20px;
-    text-shadow: 2px 2px 5px black;
-}
- */
-
- /*slideshow*/
-/* .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 3;
-    background-color: rgba(0, 0, 0, 0.4)
-}
-
-.slides-navigation .prev,
-.slides-navigation .next {
-    width: 47px;
-    height: 47px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.slides-navigation a.prev {
-    left: 20px;
-    background-image: url(../icons/left_chevron.png);
-}
-
-.slides-navigation a.next {
-    right: 20px;
-    background-image: url(../icons/right_chevron.png);
-}
-
-.titleMessage {
-    position: absolute;
-    width: 100%;
-    height: 250px;
-    top: 50%;
-    z-index: 5;
-    text-align: center;
-    margin-top: -125px;
-    text-shadow: 2px 2px 5px black;
-}
-
-.heading h1 {
-    color: #fff;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4) font-weight: 100;
-    letter-spacing: 7px;
-}
-
-.titleMessage .heading p {
-    color: #fff;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4) font-weight: 100;
-    letter-spacing: 7px;
-}
-
-.titleMessage .heading .main {
-    font-size: 50px;
-
-}
-
-.titleMessage .heading .sub {
-    font-size: 25px;
-}
-
-.slides-navigation {
-    z-index: 6;
-} */
-
-
